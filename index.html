@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/favicon-advocacia-imobiliaria.webp"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-advocacia-imobiliaria.webp"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/icons/favicon-advocacia-imobiliaria.webp"
+    />
+
+    <title>Credtei Soluções Financeiras</title>
+  </head>
+  <body>
+    <link rel="preload" as="font">
+    <!-- Navbar -->
+    <div class="opaco" id="opaco-id"></div>
+    <nav>
+         
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css" ">
+        
+        <div class="topnav" id="myTopnav">
+          <a href="javascript:void(0);" class="icon" onclick="menu()">
+            <i class="fa fa-bars" id="botao"></i>
+          </a>
+          <a class="sumir">Inicio</a>
+          <a href="#" onclick="menu()">Início</a>          
+          <a href="#sobremim"  onclick="menu()">Sobre Nós</a>
+          <a href="#servicos"  onclick="menu()">Nossos Serviços</a>
+          <a href="https://wa.me/5562982898483"  onclick="menu()" target="_blank">Fale Conosco</a>
+        </div>
+        
+        
+
+          <a href="#" class="logo">
+            <img 
+            src="assets/icons/logo creditei.jpg" 
+            class="logo-advocacia-imobiliaria" 
+            alt="Logo com iniciais BG em destaque, abaixo escrito Brenner Gontijo e, na última linha, advocacia imobiliária" 
+            width=70%
+            height=70% />
+          </a>
+
+
+          
+
+        <div class="whatsapp">
+          <a href="https://wa.me/5562982898483" target="_blank"  class="btn-whatsapp-pulse"><img
+          src="assets/icons/whatsapp.webp"
+          class="socicon wpp"
+          alt="Whatsapp"
+         /> </a>
+        </div>
+       
+        <!-- <input type="checkbox" class="checkbox" id="checkbox" />
+        <label for="checkbox" class="label">
+            <ion-icon name="partly-sunny-outline" class q="sun"></ion-icon>
+            <ion-icon name="moon-outline" class="moon"></ion-icon>
+            <div class="switcher"></div>
+        </label>-->
+    </nav>
+    
+
+
+
+  
+
+    <!-- Bars -->
+    <section class="call" id="call-id">
+      <div class="intro-text">
+        <h1>
+          <span class="precisa"> Bem vindo à</span>
+          <span class="problema"> Credtei Soluções Financeiras!</span>
+        </h1>
+      </div>
+    </section>
+
+
+    <!-- Hero section -->
+    <section class="apresentacao" id="apresentacao-id">
+      <div class="intro-textt">
+        <div class="foto">
+          <a href="">
+            <picture>
+            <img
+              src="assets/icons/credtei.png"
+              alt="Brenner Gontigo"
+              title="BG"
+              width=80%
+              height=80%
+            />
+          </picture>
+          </a>
+        </div>
+
+
+        <div class="nome-bren" id="sobremim">
+          <h1>
+            <span class="drbre"> Sobre Nós<br> </span>
+            <span class="oabgo"></span>
+          </h1>
+          <h2>Aqui você encontrará todas as respostas para suas necessidades financeiras e os melhores conselhos para alcançar a estabilidade e prosperidade.
+            <br><br>Nossa equipe de especialistas está pronta para oferecer suporte personalizado em diversas áreas como educação financeira, planejamento orçamentário, economia doméstica, renegociação de dividas, análise de investimentos e até mesmo construção de fundo de emergência.
+            <br><br>Nosso objetivo é que você consiga ter controle de suas finanças e te ajudar a alcançar seus objetivos de vida.
+            <br><br>Fale conosco e comece sua jornada para uma vida financeira mais saudável e próspera.
+          </h2>
+          <a class="btn red" href="https://wa.me/5562982898483"  onclick="menu()" target="_blank">Fale conosco</a>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="servicos" id="servicos">
+      <h1>Serviços</h1>
+      <!-- <h2>Nossos serviços incluem consultoria financeira individualizada, lhe orientando e ofertando empréstimos com as menores taxas do mercado e parcelas que cabem no seu bolso.</h2> -->
+      <div class="titulos">
+        <div class="titulo-a" onclick="popUp('titulo-a myPopup')"> 
+          <!-- <div class="imagem-a"><img src="assets/icons/despejo.webp" width="50px"></div> -->
+          <div class="nome-a">Saque no cartão de crédito</div>
+          <span class="popuptext" id="titulo-a myPopup">Expulse o Inquilino de seu imóvel!<br><br>Falta de pagamento.<br><br>Descumprimento legal ou contratual.<br><br>Para moradia própria.<br><br>Acordo.<br><br><ion-icon name="close-circle"></ion-icon></span>
+          <div class="saiba-a">Saiba mais</div>
+        </div>
+
+
+          <div class="titulo-c" onclick="popUp('titulo-c myPopup')">
+            <!-- <div class="imagem-c"><img src="assets/icons/compra-venda-imoveis.webp" width="60px"></div> -->
+            <div class="nome-c">Renegociação <br>de dívidas</div>
+            <span class="popuptext" id="titulo-c myPopup">Parcelas elevadas.<br><br>Atraso na entrega.<br><br>Análise de documentação.<br><br>Elaboração de contrato.<br><br>Análise de contrato.<br><br>Escritura e Registro.<br><br>Imposto (ITBI).<br><br>Assessoria e acompanhamento.<br><br><ion-icon name="close-circle"></ion-icon></span>
+            <div class="saiba-c">Saiba mais</div>
+          </div>
+      </div>
+
+      <div class="titulos-b">
+        <div class="titulo-d" onclick="popUp('titulo-d myPopup')"> 
+          <!-- <div class="imagem-d"><img src="assets/icons/distrato-imoveis.webp" width="40px"></div> -->
+          <div class="nome-d">Empréstimo <br>no boleto</div>
+          <span class="popuptext" id="titulo-d myPopup">Desistência.<br><br>Publicidade enganosa.<br><br>Restituição dos valores pagos.<br><br><ion-icon name="close-circle"></ion-icon></span>
+          <div class="saiba-a">Saiba mais</div>
+        </div>
+
+          <div class="titulo-f" onclick="popUp('titulo-f myPopup')">
+            <!-- <div class="imagem-f"><img src="assets/icons/usucapiao.webp" width="75px"></div> -->
+            <div class="nome-f">Empréstimo <br>com débito automático</div>
+            <span class="popuptext" id="titulo-f myPopup">Aquisição do imóvel pelo uso ao longo dos anos.<br><br>Posse mansa, pacífica, ininterrupta e sem oposição.<br><br>Único imóvel do possuidor.<br><br>Usucapião extrajudicial (cartório).<br><br>Ação de Usucapião.<br><br><ion-icon name="close-circle"></ion-icon></span>
+            <div class="saiba-f">Saiba mais</div>
+          </div>
+      </div>
+
+    </section>
+
+        <!-- Social icons -->
+        <section class="social">
+          <h3>Siga nosso perfil no Instagram.</h3>
+          <div class="socicons">
+            <a href="https://instagram.com/brennergontijo" target="_blank"> <ion-icon name="logo-instagram"></ion-icon> </a>
+          </div>
+        </section>
+
+    <!-- Lightbox image gallery -->
+    <!-- <section class="loc" id="loc">
+      <div class="loc-titulo">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15287.585865404106!2d-49.2585498!3d-16.6820636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef165d4163bfb%3A0x7e60d70be9bf3c32!2sGon%C3%A7alves%2C%20Macedo%2C%20Paiva%20e%20Rassi%20Advogados%20-%20GMPR!5e0!3m2!1spt-BR!2sbr!4v1678639832256!5m2!1spt-BR!2sbr" class="map" width="800" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>      </div>
+    </section> -->
+
+
+
+    <footer>&copy;2023. Todos os direitos reservados.</footer>
+
+
+    <!-- Scroll to top button -->
+    <i class="scroll-up" id="scroll-up"
+     ><img
+       src="http://cdn.onlinewebfonts.com/svg/img_70229.png"
+       class="socicon up-arrow"
+       alt="up-arrow"
+      />
+    </i>
+
+
+
+    <!-- Web page script -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+
+    <!-- Simple lightbox -->
+
+  </body>
+</html>
