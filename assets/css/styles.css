@@ -70,7 +70,8 @@ nav {
   padding: 1rem 2.5rem;
   height: 100px;
   position: sticky;
-  top: 0;
+  position: -webkit-sticky;
+  top: 0px;
   left: 0;
   z-index: 2;
 }
@@ -1082,6 +1083,7 @@ footer {
     align-items: center;
     padding: 0rem 0rem;
     position: sticky;
+    position: -webkit-sticky;
     z-index: 1;
   }
   ul {
@@ -1113,7 +1115,7 @@ footer {
   }
   
   .logo {
-    position: fixed;
+    position: absolute;
     right: 0.1rem;
     min-width: 100px;
     min-height: 100px;
@@ -1707,7 +1709,7 @@ footer {
 @media screen and (max-width: 470px) {
   
   .logo {
-    position: fixed;
+    position: absolute;
     min-width: 100px;
     min-height: 100px;
   }
