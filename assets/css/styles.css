@@ -78,7 +78,7 @@ nav {
 .logo {
   position: fixed;
   margin-top: 0.3%;;
-  right: 0.5%;
+  right: -3%;
   z-index: 1;
 }
 
@@ -1054,51 +1054,6 @@ footer {
   transform: translateX(24px);
 }
 
-body.dark {
-  background-color: #1e272e;
-}
-
-body.dark .bar {
-  background-color: #fff;
-}
-
-body.dark p {
-  color: #fff;
-}
-
-body.dark h3 {
-  color: #fff;
-}
-
-body.dark nav {
-  background-color: #1e272e;
-  box-shadow: 2px 3px 2px #111010;
-}
-
-body.dark ul {
-  background-color: #1e272e;
-}
-
-body.dark .name {
-  color: var(--primary-color);
-}
-
-body.dark .role {
-  color: var(--secondary-color);
-}
-
-body.dark footer {
-  color: #fff;
-  border-top: 1px solid #111010;
-  box-shadow: 0px -2px 3px #111010;
-}
-
-body.dark .up-arrow {
-    width: 2rem;
-    height: 1.5rem;
-    filter: invert(100);
-  }
-
   .whatsapp{
     display: inline;
     size: 50rem;
@@ -1159,13 +1114,13 @@ body.dark .up-arrow {
   
   .logo {
     position: absolute;
-    top: -2rem;
-    margin-right: -1.5rem;
+    min-width: 100px;
+    min-height: 100px;
   }
 
   .logo-credtei-solucoes-financeiras{
-    max-height: 200px;
-    max-width: 200px;
+    height: 100px;
+    width: 157px;
   }
 
   .brenner {
@@ -1751,11 +1706,14 @@ body.dark .up-arrow {
 @media screen and (max-width: 470px) {
   .logo {
     position: absolute;
-    top: 0.5rem;
-    right:-2rem;
-    width: 50%;
+    min-width: 100px;
+    min-height: 100px;
   }
 
+  .logo-credtei-solucoes-financeiras{
+    height: 100px;
+    width: 157px;
+  }
   .call {
     max-width: 360px;
     margin: 0 10;
