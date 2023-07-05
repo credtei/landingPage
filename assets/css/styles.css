@@ -14,6 +14,7 @@
 /* Smooth scroll effect */
 html {
   scroll-behavior:auto;
+  overflow-x: hidden;
 }
 
 /* Resets */
@@ -1704,6 +1705,7 @@ footer {
 
 
 @media screen and (max-width: 470px) {
+  
   .logo {
     position: absolute;
     min-width: 100px;
