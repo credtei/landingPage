@@ -76,13 +76,13 @@ nav {
 
 .logo {
   position: fixed;
-  margin-top: -0.3%;;
+  margin-top: 0.3%;;
   right: 0.5%;
   z-index: 1;
 }
 
-.logo-advocacia-imobiliaria{
-  max-height: 150px;
+.logo-credtei-solucoes-financeiras{
+  max-height: 130px;
 }
 
 /* Add a black background color to the top navigation */
@@ -192,17 +192,16 @@ nav {
 .call{
   display: flex;
   align-items: center;
+  margin-left: 27%;
+  margin-right: 27%;
   margin-top: 2.5rem;
-  margin-left: 21%;
-  margin-right: 21%;
   max-width: 100%;
 }
 
 .intro-text h1 {
   font-size: 3rem;
   width: 100%;
-  margin: 0 10;
-  left: 5;
+  margin: 0 0;
   text-align: center;
 }
 
@@ -299,8 +298,8 @@ nav {
 }
 
 .red {
-  background-color: #0A3031;
-  color: var(--secondary-color);
+  background-color: #2DB842;
+  color: white;
   margin-right: 2.5rem;
   bottom: 0;
   width: 100%;
@@ -447,7 +446,6 @@ nav {
 
 .saiba-a{
   font-size: 1.5rem;
-
   font-weight: 300;
 }
 
@@ -473,16 +471,17 @@ nav {
 .titulo-a .popuptext {
   flex-flow: row wrap;
   padding: 1rem;
-  line-height: 1.5rem;
-  font-size: 1.5rem;
+  line-height: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
   max-width: 80vw;
   visibility: hidden;
   background-color: #ffffff;
-  color: #000000;
+  color: var(--primary-color);
   text-align: center;
   position: absolute;
   z-index: 1;
-  border: 0.5px solid #000;
+  border: 0.5px solid var(--primary-color);
 }
 
 /* Popup arrow 
@@ -615,16 +614,17 @@ nav {
 .titulo-c .popuptext {
   flex-flow: row wrap;
   padding: 1rem;
-  line-height: 1.5rem;
-  font-size: 1.5rem;
+  line-height: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
   max-width: 80vw;
   visibility: hidden;
   background-color: #ffffff;
-  color: #000000;
+  color: var(--primary-color);
   text-align: center;
   position: absolute;
   z-index: 1;
-  border: 0.5px solid #000;
+  border: 0.5px solid var(--primary-color);
 }
 
 /* Popup arrow 
@@ -686,16 +686,17 @@ nav {
 .titulo-d .popuptext {
   flex-flow: row wrap;
   padding: 1rem;
-  line-height: 1.5rem;
-  font-size: 1.5rem;
+  line-height: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
   max-width: 80vw;
   visibility: hidden;
   background-color: #ffffff;
-  color: #000000;
+  color: var(--primary-color);
   text-align: center;
   position: absolute;
   z-index: 1;
-  border: 0.5px solid #000;
+  border: 0.5px solid var(--primary-color);
 }
 
 /* Popup arrow 
@@ -827,16 +828,17 @@ nav {
 .titulo-f .popuptext {
   flex-flow: row wrap;
   padding: 1rem;
-  line-height: 1.5rem;
-  font-size: 1.5rem;
+  line-height: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
   max-width: 80vw;
   visibility: hidden;
   background-color: #ffffff;
-  color: #000000;
+  color: var(--primary-color);
   text-align: center;
   position: absolute;
   z-index: 1;
-  border: 0.5px solid #000;
+  border: 0.5px solid var(--primary-color);
 }
 
 /* Popup arrow 
@@ -1155,14 +1157,14 @@ body.dark .up-arrow {
   
   .logo {
     position: absolute;
-    top: 1rem;
+    top: -2rem;
     margin-right: -1.5rem;
     width: 20%;
   }
 
-  .logo-advocacia-imobiliaria{
-    max-height: 105px;
-    max-width: 105px;
+  .logo-credtei-solucoes-financeiras{
+    max-height: 120px;
+    max-width: 120px;
   }
 
   .brenner {
@@ -1267,8 +1269,8 @@ body.dark .up-arrow {
   }
   
   .red {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    background-color: #2DB842;
+    color: white;
     width: 100%;
   }
   
@@ -1341,7 +1343,8 @@ body.dark .up-arrow {
     justify-content: center;
     width: 19rem;
     border-radius: 1rem;
-    border: thick double #000;
+    border: thick double wheat;
+    line-height: 3rem;
   }
 
   /* The actual popup (appears on top) */
@@ -1350,14 +1353,14 @@ body.dark .up-arrow {
     padding: 0.5rem;
     line-height: 1.5rem;
     font-size: 1.5rem;
-    max-width: 80vw;
+    max-width: 120vw;
     visibility: hidden;
     background-color: #ffffff;
-    color: #000000;
+    color: var(--primary-color);
     text-align: center;
     position: absolute;
     z-index: 1;
-    border: 1px solid #000;
+    border: 1px solid wheat;
   }
 
 
@@ -1404,14 +1407,14 @@ body.dark .up-arrow {
     padding: 0.5rem;
     line-height: 1.5rem;
     font-size: 1.5rem;
-    max-width: 80vw;
+    max-width: 120vw;
     visibility: hidden;
     background-color: #ffffff;
-    color: #000000;
+    color: var(--primary-color);
     text-align: center;
     position: absolute;
     z-index: 1;
-    border: 1px solid #000;
+    border: 1px solid wheat;
   }
 
   /* Popup arrow 
@@ -1458,7 +1461,7 @@ body.dark .up-arrow {
     justify-content: center;
     width: 19rem;
     border-radius: 1rem;
-    border: thick double #000;
+    border: thick double wheat;
     line-height: 3rem;
   }
 
@@ -1468,14 +1471,14 @@ body.dark .up-arrow {
     padding: 0.5rem;
     line-height: 1.5rem;
     font-size: 1.5rem;
-    max-width: 80vw;
+    max-width: 120vw;
     visibility: hidden;
     background-color: #ffffff;
-    color: #000000;
+    color: var(--primary-color);
     text-align: center;
     position: absolute;
     z-index: 1;
-    border: 1px solid #000;
+    border: 1px solid wheat;
   }
 
 
@@ -1522,8 +1525,7 @@ body.dark .up-arrow {
     justify-content: center;
     width: 19rem;
     border-radius: 1rem;
-    border: thick double #000;
-    
+    border: thick double wheat;
     line-height: 3rem;
   }
 
@@ -1533,14 +1535,14 @@ body.dark .up-arrow {
     padding: 0.5rem;
     line-height: 1.5rem;
     font-size: 1.5rem;
-    max-width: 80vw;
+    max-width: 120vw;
     visibility: hidden;
     background-color: #ffffff;
-    color: #000000;
+    color: var(--primary-color);
     text-align: center;
     position: absolute;
     z-index: 1;
-    border: 1px solid #000;
+    border: 1px solid wheat;
   }
 
 
@@ -1588,14 +1590,14 @@ body.dark .up-arrow {
     padding: 0.5rem;
     line-height: 1.5rem;
     font-size: 1.5rem;
-    max-width: 80vw;
+    max-width: 120vw;
     visibility: hidden;
     background-color: #ffffff;
-    color: #000000;
+    color: var(--primary-color);
     text-align: center;
     position: absolute;
     z-index: 1;
-    border: 1px solid #000;
+    border: 1px solid wheat;
   }
 
   /* Popup arrow 
@@ -1642,7 +1644,7 @@ body.dark .up-arrow {
     justify-content: center;
     width: 19rem;
     border-radius: 1rem;
-    border: thick double #000; 
+    border: thick double wheat;
     line-height: 3rem;
   }
 
@@ -1652,14 +1654,14 @@ body.dark .up-arrow {
     padding: 0.5rem;
     line-height: 1.5rem;
     font-size: 1.5rem;
-    max-width: 80vw;
+    max-width: 120vw;
     visibility: hidden;
     background-color: #ffffff;
-    color: #000000;
+    color: var(--primary-color);
     text-align: center;
     position: absolute;
     z-index: 1;
-    border: 1px solid #000;
+    border: 1px solid wheat;
   }
 
   .imagem-f{
@@ -1683,7 +1685,11 @@ body.dark .up-arrow {
     from {opacity: 0;}
     to {opacity:1 ;}
   }
-
+  .saiba-f{
+    font-size: 1.5rem;
+    margin-top: 0rem;
+    font-weight: 300;
+  }
 
 
 
@@ -1721,7 +1727,7 @@ body.dark .up-arrow {
 @media screen and (max-width: 470px) {
   .logo {
     position: absolute;
-    top: -0.5rem;
+    top: 0.5rem;
     right:-2rem;
     width: 50%;
   }
@@ -1822,5 +1828,5 @@ body.dark .up-arrow {
 
 
 ion-icon {
-  color:var(--primary-color);
+  color:var(--secondary-color);
 }
