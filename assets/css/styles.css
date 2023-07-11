@@ -355,6 +355,8 @@ img{
   max-height: 600px;
   max-width: 450px;
   align-items: center;
+  float: right;
+  margin-right: 6rem;
 }
 .foto{
   flex-direction: row;
