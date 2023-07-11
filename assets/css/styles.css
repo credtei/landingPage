@@ -199,6 +199,7 @@ nav {
   
 }
 
+
 .call{
   display: flex;
   align-items: center;
@@ -351,20 +352,22 @@ nav {
   color: #fff;
 }
 
-img{
+.imagem-credtei{
   max-height: 600px;
   max-width: 450px;
-  align-items: center;
-  float: right;
-  margin-right: 6rem;
+  align-items: right;
+  right: 50px;
 }
+
+.imagem-principal{
+  margin-right: 5rem;
+}
+
 .foto{
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
   width: 100%;
   max-height: 650px;
-  margin-left: 5%;
 }
 
 .foto-mob{
@@ -1196,8 +1199,10 @@ footer {
     font-size: 1rem;
   }
 
-
-
+ 
+  .imagem-principal{
+    margin-right: 0rem;
+  }
 
   .intro-text h1 {
     font-size: 2rem;
@@ -1755,6 +1760,24 @@ footer {
     height: 100px;
     width: 157px;
   }
+
+  .imagem-credtei{
+    max-height: 600px;
+    max-width: 450px;
+    align-items: center;
+    right: 0px;
+  }
+
+  .imagem-principal{
+    margin-right: 0rem;
+  }
+
+  .foto{
+    display: flex;
+    width: 100%;
+    max-height: 650px;
+  }
+  
 
   .call {
     max-width: 360px;
