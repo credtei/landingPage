@@ -199,23 +199,19 @@ nav {
   
 }
 
-
-.call{
-  display: flex;
-  align-items: center;
-  margin-left: 30%;
-  margin-right: 30%;
-  margin-top: 2.5rem;
-  max-width: 100%;
-}
 .container-titulo{
-  width: 80vw;
-  height: 75px;
+  height: 80px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
+
+.call{
+  margin-top: 3rem;
+  max-width: 100%;
+}
+
 .intro-text h1 {
   font-size: 3rem;
   width: 100%;
@@ -253,13 +249,16 @@ nav {
   max-width: 100%;
   margin: 2% 10%;
 }
-
+.intro-text{
+  margin-top: 2rem;
+}
 .intro-textt{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-bottom: 1.5rem;
+  margin-top: 2.5rem;
 }
 
 .nome-bren{
