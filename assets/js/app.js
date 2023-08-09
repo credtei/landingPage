@@ -42,49 +42,9 @@ function popUp(id) {
   if(opa.className === "opaco responsive"){
     opa.addEventListener("click", function(){
       if(pop.className === "popuptext show"){
-        function fechaPopUp(){
-          return new Promise(pop.classList.toggle("show"));
-        }
-        async function desativaOpaco(){
-          var x = await fechaPopUp();
-          opa.className = "opaco";
-        }
-        
+        pop.classList.toggle("show");
+        opa.className = "opaco";
       }
     })
   }
 }
-
-/*function popUp(id) {
-  var pop = document.getElementById(id);
-  if (pop.className === "popuptext"){
-    pop.className += " show";
-  } else {
-    pop.className = "popuptext";
-  }
-  var opa = document.getElementById("opaco-id");
-  if (opa.className === "opaco"){
-    opa.className += " responsive";
-  } else{
-    opa.className = "opaco";
-    pop.className = "popuptext";
-    opa.addEventListener("click", function(){
-      pop.className = "popuptext";
-      opa.className = "opaco";
-    })
-  }
-}
-
-
-const scrollUp = document.querySelector("#scroll-up");
-
-scrollUp.addEventListener("click", () => {
-    window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: "smooth",
-    });
-});
-
-*/
-
